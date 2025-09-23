@@ -13,6 +13,7 @@ body{
 html{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 header{
     
@@ -63,13 +64,19 @@ article{
     margin: auto;
 }
 .links{
-    width: 30%;
+    
     margin: auto;
 
     a{
+        border: 5px solid #bfbcb0;
         margin: 5px auto;
         text-decoration: none;
+        padding: 5px 5px;
+        border-radius: 15px;
     }
+    a:hover{
+            border: 5px solid #f1ede1;
+        }
 }
 .banner{
 
@@ -81,7 +88,7 @@ article{
         border-radius: 30px;
         margin: auto;
         width: 78%;
-        height: 450px;
+        object-fit: contain;
     }
 }
 
@@ -89,14 +96,15 @@ article{
 
     img{
         border-radius: 30px;
-        width: 400px;
-        height: 300px;
+        width: 80%;
         margin-bottom: 30px;
+        object-fit: contain;
     }
     iframe{
         border-radius: 30px;
-        width: 700px;
-        height: 300px;
+        width: 80%;
+        height: 80%;
+        
     }
 }
 .artigos{
@@ -140,13 +148,3 @@ article{
 
 
 }
-
-
-
-
-
-
-
-
-
-
